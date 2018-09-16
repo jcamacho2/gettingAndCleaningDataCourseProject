@@ -19,5 +19,5 @@ It replaces V1:V561 with appropriate variable names derived from "features.txt".
 Then it, by using a regular expression, it selects only those features (columns) that are either a mean or standard deviation.
 Finally it creates a tidy independent data set from the above data set using a series of for loops.
 
-<h2> Code book </h2>
+<h2> code_book </h2>
 The code book describes the variables of the output file from run_analysis.R, "tidyData.txt".
