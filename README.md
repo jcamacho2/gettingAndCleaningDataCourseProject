@@ -7,7 +7,10 @@ and converts it into a tidy dataframe with four columns: subject, activity, meas
 You must unzip the downloaded folder and set your working directory to be in the "UCI HAR Dataset" folder for run_analysis.R to work.
 
 <h2> run_analysis </h2>
- run_analysis reads the training set, the subject labels for the training set, and the activity labels for the training set. It then merges these dataframes using cbind to produce a data frame with 563 columns: subject, activity, V1, V2, ..., V561. Where V1:V561 represents the 561 features in each row. 
+
+run_analysis reads the training set, the subject labels for the training set, and the activity labels for the training set. 
+
+It then merges these dataframes using cbind to produce a data frame with 563 columns: subject, activity, V1, V2, ..., V561. Where V1:V561 represents the 561 features in each row. 
   
 run_analysis does the same with the testing sest. Afterwards, the program merges the training and test sets with rbind to form one dataset.
 
