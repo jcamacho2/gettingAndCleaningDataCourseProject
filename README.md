@@ -12,10 +12,19 @@ Windows 10 Version 1803
 
 --------------------------------------------------------------
 
+<h2> Instructions </h2>
+
 This program uploads data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 and converts it into a tidy dataframe with four columns: subject, activity, measurement, mean.
 
 You must unzip the downloaded folder and set your working directory to be in the "UCI HAR Dataset" folder for run_analysis.R to work.
+
+<ol>
+  <li>Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</li>
+  <li>Unzip the folder and set your working directory to be in the "UCI HAR Dataset" folder</li>
+  <li>Install and load the dyplyr package</li>
+  <li>Run run_analyis</li>
+</ol>
 
 <h2> run_analysis </h2>
 
