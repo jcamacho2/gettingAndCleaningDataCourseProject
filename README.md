@@ -22,7 +22,7 @@ You must unzip the downloaded folder and set your working directory to be in the
 <ol>
   <li>Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</li>
   <li>Unzip the folder and set your working directory to be in the "UCI HAR Dataset" folder</li>
-  <li>Install and load the dyplyr package</li>
+  <li>Install and load the dplyr package</li>
   <li>Run run_analyis</li>
 </ol>
 
