@@ -1,6 +1,17 @@
 # gettingAndCleaningDataCourseProject
 Submission for Getting and Cleaning Data course project on Coursera.
 
+--------------------------------------------------------------
+The script was written on: 
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+Windows 10 Version 1803
+
+--------------------------------------------------------------
+
 This program uploads data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 and converts it into a tidy dataframe with four columns: subject, activity, measurement, mean.
 
