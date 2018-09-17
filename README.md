@@ -27,8 +27,8 @@ run_analysis does the same with the testing sest. Afterwards, the program merges
 
 It replaces V1:V561 with appropriate variable names derived from "features.txt". It replaces the values in the activity column with meaningful names, derived from "activity_labels.txt".
 
-Then it, by using a regular expression, it selects only those features (columns) that are either a mean or standard deviation.
-Finally it creates a tidy independent data set from the above data set using a series of for loops.
+Then, by using a regular expression, it selects only those features (columns) that are either a mean or a standard deviation.
+Finally, it creates a tidy independent data set from the above data set using a series of for loops.
 
 <h2> code_book </h2>
 The code book describes the variables of the output file from run_analysis.R, "tidyData.txt".
